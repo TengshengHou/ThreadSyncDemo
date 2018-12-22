@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockStructure", "Inter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interlock", "Interlock", "{00BD01C4-85FE-4F95-9F84-137719679C0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSpinLock", "SimpleSpinLock\SimpleSpinLock.csproj", "{60E1AE0B-3CED-4025-9455-94AA744F0A13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{556C5F2C-EC5C-46FD-AF2A-8A159F8691E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556C5F2C-EC5C-46FD-AF2A-8A159F8691E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556C5F2C-EC5C-46FD-AF2A-8A159F8691E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E1AE0B-3CED-4025-9455-94AA744F0A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E1AE0B-3CED-4025-9455-94AA744F0A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E1AE0B-3CED-4025-9455-94AA744F0A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E1AE0B-3CED-4025-9455-94AA744F0A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{556C5F2C-EC5C-46FD-AF2A-8A159F8691E0} = {00BD01C4-85FE-4F95-9F84-137719679C0F}
+		{60E1AE0B-3CED-4025-9455-94AA744F0A13} = {00BD01C4-85FE-4F95-9F84-137719679C0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79FA4EE8-8D0E-499E-9F79-62EBD8FD9B43}

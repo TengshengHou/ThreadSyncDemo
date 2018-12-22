@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ThreadSynchronization
 {
-    class Program
+    public class Program
     {
+        public static Int32 count;
         static void Main(string[] args)
         {
             bool lockBool = false;

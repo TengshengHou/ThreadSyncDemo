@@ -3,3 +3,5 @@ InterlockStructure/obj/
 ThreadSynchronization/obj/
 ThreadSynchronization/bin/
 InterlockStructure/bin/
+SimpleSpinLock/obj/
+SimpleSpinLock/bin/
