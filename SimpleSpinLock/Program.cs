@@ -11,6 +11,9 @@ namespace SimpleSpinLock
     {
         internal static int count;
         private static SimpleSpinLock SimpleSpinLock = new SimpleSpinLock();
+        //System.Threading.SpinLock spinLock = new System.Threading.SpinLock(); //FCL默认定义的自旋锁 内部用的Thread.SpinWait实现
+
+
         static void Main(string[] args)
         {
             for (int i = 0; i < 200; i++)

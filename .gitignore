@@ -5,3 +5,4 @@ ThreadSynchronization/bin/
 InterlockStructure/bin/
 SimpleSpinLock/obj/
 SimpleSpinLock/bin/
+*.stackdump
