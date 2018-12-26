@@ -6,3 +6,13 @@ InterlockStructure/bin/
 SimpleSpinLock/obj/
 SimpleSpinLock/bin/
 *.stackdump
+SimpleHybridLock/obj/
+Semaphore/obj/
+InterLockedAnything/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+InterLockedAnything/obj/
+EventWaitHandle/obj/
+Mutex/obj/
+SimpleHybridLock/bin/
+EventWaitHandle/bin/
+InterLockedAnything/bin/
+Semaphore/bin/

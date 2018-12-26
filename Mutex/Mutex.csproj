@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60E1AE0B-3CED-4025-9455-94AA744F0A13}</ProjectGuid>
+    <ProjectGuid>{A8852514-E186-4962-BF11-4925CA8FB454}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimpleSpinLock</RootNamespace>
-    <AssemblyName>SimpleSpinLock</AssemblyName>
+    <RootNamespace>Mutex</RootNamespace>
+    <AssemblyName>Mutex</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,13 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleSpinLock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="简单的自选锁 29.3.3.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

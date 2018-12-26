@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60E1AE0B-3CED-4025-9455-94AA744F0A13}</ProjectGuid>
+    <ProjectGuid>{6C088BD2-4320-4F8A-9443-AD54DBEB4687}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimpleSpinLock</RootNamespace>
-    <AssemblyName>SimpleSpinLock</AssemblyName>
+    <RootNamespace>SimpleHybridLock</RootNamespace>
+    <AssemblyName>SimpleHybridLock</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,13 +45,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleSpinLock.cs" />
+    <Compile Include="SimpleHybridLock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="简单的自选锁 29.3.3.txt" />
+    <Content Include="一个简单的混合锁.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
