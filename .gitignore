@@ -16,3 +16,5 @@ SimpleHybridLock/bin/
 EventWaitHandle/bin/
 InterLockedAnything/bin/
 Semaphore/bin/
+AnoterHyBridLock/obj/
+AnoterHyBridLock/bin/

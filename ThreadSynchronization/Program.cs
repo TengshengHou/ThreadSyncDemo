@@ -14,39 +14,8 @@ namespace ThreadSynchronization
         static ManualResetEvent manualResetEvent = new ManualResetEvent(true);
         static void Main(string[] args)
         {
-            List<Task> tasks = new List<Task>();
-            autoResetEvent.Set();
-            for (int i = 0; i < 200; i++)
-            {
-                var t = Task.Run(() =>
-                  {
-                      //Console.WriteLine("来了老弟" + Program.count);
-
-                      autoResetEvent.WaitOne();
-                     
-                      //Thread.Sleep(10);
-                      ++Program.count;
-                      Console.WriteLine(Program.count);
-                      autoResetEvent.Set();
-                  
-                  });
-                tasks.Add(t);
-            }
-            Task.WaitAll(tasks.ToArray());
-
-            //Task.Run(() =>
-            //{
-            //    Thread.Sleep(2000);
-            //    autoResetEvent.Set();
-            //});
-            //Console.WriteLine(autoResetEvent.Reset());
-            //autoResetEvent.WaitOne();
-
-            //new Example().Begin();
-
-
-            Console.WriteLine("ok");
-            Console.ReadLine();
+            SpinWait spinWait = new SpinWait();
+            spinWait.SpinOnce();
         }
 
         public static void Test1()
